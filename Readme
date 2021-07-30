@@ -1,0 +1,8 @@
+1 qingyun 
+2 ubuntu20.04
+3 apt update
+4 apt install nodejs(v10.19.0)/npm(6.14.4)
+5 npm install ws 
+6 wsServer.js
+7 client.html
+ 
