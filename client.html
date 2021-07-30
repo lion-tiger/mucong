@@ -1,0 +1,27 @@
+<html>
+  <head>	
+    <title>WebSocket nodejs test</title>
+    <script>
+	var ws = new WebSocket("ws://139.198.181.26:8181")
+        ws.onopen = function(e){
+           console.log("Connect to server successfully")
+	}
+        
+        function sendMessage(){
+	    console.log("Send message to server");	
+          //  ws.send($('#message').val());
+            ws.send("xie ddddddddddddd");
+	}
+
+    </script>	    
+  </head>
+
+  <body>
+    
+    <button type="button" id = "send" class = "btn btn-primary" onclick="sendMessage();">
+	    Send!
+    </button>
+
+
+  </body>	  
+</html>	
